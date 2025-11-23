@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    html {
+    scroll-behavior: smooth;
+    }
+    img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#info">Info</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="profile.jpg" alt="Profile Picture"/>
+            <p>Hello! I'm Anany Mishra, a driven B.Tech Computer Science student at K.R. Mangalam University with a strong passion for technology, innovation, and problem-solving. I specialize in web development and enjoy creating clean, responsive, and user-friendly websites. I love exploring new technologies, improving my skills, and turning creative ideas into real, impactful solutions. Always curious and motivated, I’m constantly working on projects that help me grow as a developer and contribute meaningfully to the tech world.</p>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>To Do App</strong> - A responsive to do  web app built with HTML and JavaScript.</li>
+                <li><strong>Spotify Clone</strong> - A responsive Spotify web app built with HTML, CSS, and JavaScript.</li>
+                <li><strong>Simon Game</strong> - A responsive classic memory game challenge web app built with HTML, CSS, and JavaScript.</li>
+                <li><strong>Daily calorie Tracker</strong> - A web app that helps user to track their daily food calorie intake.</li>
+                <li><strong>Portfolio Website</strong> - The very site you're browsing!</li>
+            </ul>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <table border="1" cellpadding="8">
+                <thead>
+                    <tr>
+                        <th>Technology</th>
+                        <th>Proficiency</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Advanced</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Advanced</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Intermediate</td>
+                    </tr>
+                    <tr>
+                        <td>React</td>
+                        <td>Beginner</td>
+                    </tr>
+                    <tr>
+                        <td>Python</td>
+                        <td>Intermediate</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label><br />
+                <input type="text" id="name" name="name" placeholder="Your Name" required /><br /><br />
+
+                <label for="email">Email:</label><br />
+                <input type="email" id="email" name="email" placeholder="Your Email" required /><br /><br />
+
+                <label for="message">Message:</label><br />
+                <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea><br /><br />
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <!-- Other Info Section -->
+    <section id="info">
+        <h2>Other information</h2>
+        <ul> 
+            <li><b>Call : </b>9236006161</li>
+            <li><b>Email : </b>ananymishra180@gmail.com</li>
+            <li><a href="https://www.linkedin.com/feed/">Linkedin</a></li>
+        </ul>
+        <p>Made with &hearts; </p>
+    </section>
+    </footer>
+
+</body>
+</html>
